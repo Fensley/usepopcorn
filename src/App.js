@@ -127,6 +127,7 @@ function Box({ children }) {
     </div>
   );
 }
+
 // function WatchedBox() {
 //   const [watched, setWatched] = useState(tempWatchedData);
 //   const [isOpen2, setIsOpen2] = useState(true);
@@ -148,7 +149,6 @@ function Box({ children }) {
 // </div>
 //   );
 // }
-
 function MovieList({ movies }) {
   return (
     <ul className="list">
